@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0px 120px;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+
+
+
+
+/* Header section */
+
+/* nav */
+
+nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 40px;
+}
+
+nav h3 {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-btn {
+
+    padding: 15px 30px;
+    color: #006A50;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    border-radius: 8px;
+    border: 1px solid #006A50;
+}
+
+
+/* banner section */
+
+.banner-section {
+    display: flex;
+    padding: 80px 100px;
+    justify-content:space-between;
+    align-items: center;
+
+
+    border-radius: 24px;
+    background: #C6E4D6;
+}
+
+.banner-title-1 {
+    color: rgba(14, 14, 14, 0.50);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+
+.banner-title-2 {
+
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+
+.btn-primary {
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    background: #006A50;
+    border: none;
+}
